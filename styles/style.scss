@@ -1,0 +1,67 @@
+* {
+    border: 0px;
+    margin: 0px;
+}
+
+.title-page {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.container-animals {
+    margin-top: 0px;
+}
+
+.container-animals__img {
+    img {
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 40px;
+    }
+}
+
+.container-animals-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.container-animals-modal__container {
+    background: white;
+    padding: 20px;
+    h2 {
+        text-align: center;
+        background: #fff;
+    }
+    img {
+        margin: 0 auto;
+        display: block;
+        border-radius: 50px;
+        padding: 25px;
+        background: #fff;
+    }
+    p {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        background: #fff;
+    }
+    button {
+        display: block;
+        margin: 20px auto 10px;
+        padding: 10px;
+    }
+    #close-btn {
+        padding: 5px;
+        background: #ecf0f1;
+    }
+}
